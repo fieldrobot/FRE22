@@ -1,0 +1,8 @@
+prefix=/field_robot/ROS1/devel
+
+Name: example_robot_description
+Description: Description of example_robot_description
+Version: 0.7.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

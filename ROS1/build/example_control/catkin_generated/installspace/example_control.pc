@@ -1,0 +1,8 @@
+prefix=/field_robot/ROS1/install
+
+Name: example_control
+Description: Description of example_control
+Version: 0.7.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

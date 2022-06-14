@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<launch>
+
+  <!-- Configuration of Jackal which you would like to simulate.
+       See jackal_description for details. -->
+  <!-- Uncomment the configuration you want to use. -->
+  
+  <!-- <arg name="config" default="front_flea3" /> -->
+  <!-- <arg name="config" default="front_bumblebee2" /> -->
+  <arg name="config" default="front_laser" />
+  <!-- <arg name="config" default="front_realsense" /> -->
+
+  <!-- Load Jackal's description, controllers, and teleop nodes. -->
+  <include file="$(find example_robot_description)/launch/description.launch">
+    <arg name="config" value="$(arg config)" />
+  </include>
+
+  <!--<include file="$(find example_control)/launch/control.launch" />-->
+
+</launch>

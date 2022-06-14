@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /field_robot/ROS1/install/setup.sh
